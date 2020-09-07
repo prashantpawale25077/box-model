@@ -1,0 +1,262 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF=8">
+<title> " THE BOX MODEL"</title>
+<style>
+	*{
+		box-sizing: border-box;
+	}
+	h1{
+		font-weight: bold;
+		text-align: center;
+	}
+	div{
+		width: 100%;
+		float: left;
+	
+	}
+	p{
+		height: 30px;
+		width: 70px;
+		border: 1px solid black;
+		float: rights;
+		font-weight: bold;
+		position:relative;
+		left: 216px;
+		top: -26px;
+		margin-right: 10px;
+
+
+	}
+	.box1{
+		background-color: grey;
+		padding: 10px 10px 10px 10px;
+		border: 1px solid black;
+		margin: 10px;
+		width:300px ;
+		box-sizing: border-box;
+		
+	
+		
+
+	
+	}
+	.box2{
+		background-color: grey;
+		padding: 10px 10px 10px 10px;
+		border: 1px solid black;
+		margin: 10px;
+		width:300px;
+		box-sizing: border-box;
+		
+		
+
+	
+
+	
+	}
+	.box3{
+		background-color: grey;
+		padding: 10px 10px 10px 10px;
+		border: 1px solid black;
+		margin: 10px;
+	    width:300px ;
+	
+		
+	
+	}
+	
+	#p1{
+	background-color: #DE8887;
+		
+	}
+ 	#p2{
+	background-color: #A52A2A;
+		
+	}
+	#p3{
+	background-color: #FFDEAD;
+		
+	}
+
+	#content{
+		font-weight: bold;
+	}
+	@media(min-width:992px ){
+		*{
+			box-sizing: border-box;
+		}
+		div{
+		width: 100%;
+		float: left;
+	
+	}
+		 .box1{
+			width=50%;
+			background-color:grey;
+			margin :10px;
+
+		}
+		 .box2{
+			width=50%;
+			margin:10px;
+
+		}
+		 .box3{
+			width=50%;
+			margin:10px;
+		}
+		
+	}
+	@media(max-width:991px ) and (min-width:768px) {
+		*{
+			box-sizing: border-box;
+		}
+		div{
+		width: 50%;
+		float: left;
+	
+	}
+
+		#p1{
+			position:relative;
+			left: 366px;
+			top: -26px;
+
+		}
+			
+			.box1{
+		background-color: grey;
+		padding: 10px 10px 10px 10px;
+		border: 1px solid black;
+		margin: 10px;
+	    width:450px ;
+	    box-sizing: border-box;
+	}
+	#p2{
+			position:relative;
+			left: 366px;
+			top: -26px;
+
+		}
+			
+			.box2{
+		background-color: grey;
+		padding: 10px 10px 10px 10px;
+		border: 1px solid black;
+		margin: 10px;
+	    width:450px ;
+	    box-sizing: border-box;
+	    float: left;
+	
+
+	}
+
+		#p3{
+			position:relative;
+			left: 816px;
+			top: -26px;
+
+		}
+			
+			.box3{
+		background-color: grey;
+		padding: 10px 10px 10px 10px;
+		border: 1px solid black;
+		margin: 10px;
+	    width:900px ;
+	    box-sizing: border-box;
+	    clear: left;
+	}
+	
+
+		
+
+			
+			
+}
+@media(max-width:767px ){
+		*{
+			box-sizing: border-box;
+		}
+		
+		div{
+		width:100%;
+		clear: left;
+	
+	}
+	
+	#p1{
+			position:relative;
+			left: 816px;
+			top: -26px;
+
+		}
+			
+			.box1{
+		background-color: grey;
+		padding: 10px 10px 10px 10px;
+		border: 1px solid black;
+		margin: 10px;
+	    width:900px ;
+	}
+	#p2{
+			position:relative;
+			left: 816px;
+			top: -26px;
+
+		}
+			
+			.box2{
+		background-color: grey;
+		padding: 10px 10px 10px 10px;
+		border: 1px solid black;
+		margin: 10px;
+	    width:900px ;
+	    clear: left;
+	}
+		
+		
+		#p3{
+			position:relative;
+			left: 816px;
+			top: -26px;
+
+		}
+			
+			.box3{
+		background-color: grey;
+		padding: 10px 10px 10px 10px;
+		border: 1px solid black;
+		margin: 10px;
+	    width:900px ;
+	    clear: left;
+	   
+	   
+	}
+}
+	
+			
+	
+</style>
+</head>
+<body>
+	<h1>Our Menu</h1>
+	<div class="box1">
+		<p id=p1>Chicken</p>
+		<div id="content"> loren ipsum dolar sit amet,consectur adipsicing elit,sed do eiusmod tempor incididuntut labore et dolare magana aliqua.Ut enium adminim veniam,quis nostrud exercitation ullamco laboris nis ut aliquip ex ea commodo consequat</div>
+	</div>
+	<div class="box2">
+		<p id=p2>Beef</p>
+		<div id="content"> loren ipsum dolar sit amet,consectur adipsicing elit,sed do eiusmod tempor incididuntut labore et dolare magana aliqua.Ut enium adminim veniam,quis nostrud exercitation ullamco laboris nis ut aliquip ex ea commodo consequat</div>
+	</div>
+</div>
+	<div class="box3">
+		<p id=p3>Shushi</p>
+		<div id="content"> loren ipsum dolar sit amet,consectur adipsicing elit,sed do eiusmod tempor incididuntut labore et dolare magana aliqua.Ut enium adminim veniam,quis nostrud exercitation ullamco laboris nis ut aliquip ex ea commodo consequat</div>
+	</div>
+</div>
+
+</body>
+</html>
